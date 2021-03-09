@@ -1238,7 +1238,10 @@
   background: linear-gradient(40deg, #2096ff, #05ffa3) !important; }
 
 .blue-gradient {
-  background: linear-gradient(40deg, #45cafc, #303f9f) !important; }
+  background: linear-gradient(40deg, #e67074, #db3237) !important; }
+
+.red-gradient {
+  background: linear-gradient(40deg, #e67074, #db3237) !important; }
 
 .purple-gradient-rgba {
   background: linear-gradient(40deg, rgba(255, 110, 196, 0.9), rgba(120, 115, 245, 0.9)) !important; }
@@ -1250,7 +1253,10 @@
   background: linear-gradient(40deg, rgba(32, 150, 255, 0.9), rgba(5, 255, 163, 0.9)) !important; }
 
 .blue-gradient-rgba {
-  background: linear-gradient(40deg, rgba(69, 202, 252, 0.9), rgba(48, 63, 159, 0.9)) !important; }
+  background: linear-gradient(40deg, rgba(230, 112, 116, 0.9), rgba(219, 50, 55, 0.9)) !important; }
+
+.red-gradient-rgba {
+  background: linear-gradient(40deg, rgba(230, 112, 116, 0.9), rgba(219, 50, 55, 0.9)) !important; }
 
 .dark-grey-text {
   color: #4f4f4f !important; }
@@ -3880,7 +3886,14 @@ table.table a.btn.btn-black {
   transition: .5s ease; }
   .btn.blue-gradient:hover, .btn.blue-gradient:focus, .btn.blue-gradient:active,
   .btn.blue-gradient:active:focus .btn.blue-gradient.active {
-    background: linear-gradient(#5ed1fc, #3647b3); }
+    background: linear-gradient(#e67074, #db3237); }
+
+.btn.red-gradient {
+  color: #fff;
+  transition: .5s ease; }
+  .btn.red-gradient:hover, .btn.red-gradient:focus, .btn.red-gradient:active,
+  .btn.red-gradient:active:focus .btn.red-gradient.active {
+    background: linear-gradient(#e67074, #db3237); }
 
 .btn-warning:not(:disabled):not(.disabled).active,
 .btn-warning:not(:disabled):not(.disabled):active,
@@ -5529,7 +5542,10 @@ body.scrollable {
   background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%); }
 
 .deep-blue-gradient {
-  background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%); }
+  background-image: linear-gradient(120deg, #e67074 0%, #db3237 100%); }
+
+.deep-red-gradient {
+  background-image: linear-gradient(120deg, #e67074 0%, #db3237 100%); }
 
 .ripe-malinka-gradient {
   background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%); }
